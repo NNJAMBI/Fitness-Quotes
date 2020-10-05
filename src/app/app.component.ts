@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Fitness-Quotes';
+  quotes: string[];
+
+  constructor() {
+    this.quotes = ['Thomas Jefferson Push yourself', 'Muhammad Ali Dont count days', 'Maya Angelou Do', 'Mahatma Gandhi Strength']
+
+  }
 }
