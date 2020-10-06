@@ -34,6 +34,10 @@
                             <h4 id={{i}} appHighlight>{{quote.name}} Submitted on {{quote.completeDate|date|uppercase}}
                             </h4>
                             <button (click)='toggleDetails(i)' class="btn btn-primary">Show Quote Details</button>
+                            <div class="col-4">
+                                <p><app-vote></app-vote></p>
+                               <!-- to show votes from vote app component + deleteQuote form dq details-->
+                             </div>
                         </div>
 
                         <div *ngIf='quote.showDescription'>
@@ -41,6 +45,8 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
-
         </div>
+    </div>
+</div>
