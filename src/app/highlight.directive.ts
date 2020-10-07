@@ -6,9 +6,9 @@ import { Directive ,ElementRef, Input, HostListener} from '@angular/core';
 export class HighlightDirective {
   constructor(private elem: ElementRef) { }
 
-  // @HostListener("click") upVotes() {
-  //   this.highlight("highlight")
-  // }
+  @HostListener("click") upVotes() {
+    this.highlight("highlight")
+  }
   @HostListener("dblclick") onDoubleClicks() {
     this.highlight("highlight")
   }
