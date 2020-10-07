@@ -2,26 +2,28 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
+## Quotes Developer
+Nancy Karanja
+
+## Description
+This is an angular app for generating and saving new quotes, voting for and deleting them.
+
+## Specifications
+This app creates a new quote.
+
+You can vote as well as see when the quote was published.
+
+It allows the user to delete a quote.
+
+## Link to deployed page:
+https://nnjambi.github.io/Fitness-Quotes/
+
+## Technologies used
+Angular, HTML, CSS, Bootstrap.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## License and terms of use
+MIT License this application's source code is free for any open source projects
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+©NNJAMBI 2020 | Moringa School
