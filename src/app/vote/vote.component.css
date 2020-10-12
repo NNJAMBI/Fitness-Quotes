@@ -3,8 +3,12 @@
   margin: 4px;
   border: none;
   color: white;
-  float: left;
+  /* float: left; */
   width:30px;
-  height:40%;
+  height:20%;
   /* border-radius: 50%; */
+}
+
+#displayFlex{
+  display: flex;
 }
